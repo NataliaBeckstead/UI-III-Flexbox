@@ -54,7 +54,9 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	width: 90%;
+    margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5 {
@@ -65,18 +67,13 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-* {
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
-	max-width: 100%;
-  }
 
 /*Navigation bar*/
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+	justify-content: space-between;
+	height: 4em;
 }
 .menu {
     width:60%;
