@@ -1,0 +1,24 @@
+/*Navigation*/
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu {
+    width:60%;
+    display: flex;
+    justify-content: space-between;
+}
+nav a {
+    text-decoration: none;
+	color: lightgray;
+}
+
+/*header*/
+
+/*Section 1*/
+
+/*Section 2*/
+
+/*Footer*/
