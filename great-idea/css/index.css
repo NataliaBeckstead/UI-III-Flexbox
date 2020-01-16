@@ -87,18 +87,18 @@ nav a {
 
 /*Header*/
 header {
-	margin-bottom: 5%;
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 3em;
+	border-bottom: 2px solid black;
 }
 div.innovation {
-	display: inline-block;
 	text-align: center;
-	margin-left: 20%;
+	margin: 0 auto;
 }
 header img {
-	display: inline-block;
-	float: right;
 	width: 300px;
-	margin-right: 20%;
+	margin: 0 auto;
 }
 h1 {
 	text-align:center;
@@ -119,61 +119,48 @@ button:hover {
 }
 /*section*/
 
-#Features {
-	display: table-cell;
-	width:  49%;
-	border-top: 3px solid black;
-	margin-top: 5%;
-	text-align: left;
-	padding: 2%;
-}
-#About {
-	display: table-cell;
-	width: 49%;
-	border-top: 3px solid black;
-	margin-top: 5%;
-	text-align: left;
-	padding: 2%;
-}
-div.spacingTop {
-	display: table-cell;
-	width: 2%;
-	border-top: 3px solid black;
-	margin-top: 5%;
-	padding-top: 7%;
-}
-div.spacingBottom {
-	display: table-cell;
-	width: 1%;
-	border-bottom: 3px solid black;
-	margin-top: 2%;
-}
-#Services {
-	display: table-cell;
-	width: 32%;
-	border-bottom: 3px solid black;
-	text-align: left;
+.top {
+	display: flex;
+	align-items: flex-start;
 	padding: 2%;
 }
 
-#Product {
-	display: table-cell;
-	width: 32%;
-	border-bottom: 3px solid black;
+#Features {
+	width:  49%;
 	text-align: left;
+}
+#About {
+	width: 49%;
+	text-align: left;
+	
+}
+div.spacingTop {
+	width: 2%;
+}
+.bottom {
+	display: flex;
+	align-items: flex-start;
 	padding: 2%;
+	border-bottom: 2px solid black;
+}
+div.spacingBottom {
+	width: 1%;
+}
+#Services {
+	width: 32%;
+	text-align: left;
+}
+
+#Product {
+	width: 32%;
+	text-align: left;
 }
 #Vision {
-	display: table-cell;
 	width: 32%;
-	border-bottom: 3px solid black;
 	text-align: left;
-	padding: 2%;
 }
 section img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	display: flex;
 	width: 100%;
 }
 /*address*/
@@ -190,6 +177,9 @@ address {
 }
 /*footer*/
 footer {
-	text-align: center;
-	margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 4em;
 }
