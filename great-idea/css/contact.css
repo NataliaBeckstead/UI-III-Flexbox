@@ -54,8 +54,8 @@ table {
 
 html, body {
     height: 100%;
-	font-family: 'Titillium Web', sans-serif;
-	width: 90%;
+    font-family: 'Titillium Web', sans-serif;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -65,15 +65,14 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+/*Navigation*/
 
-/*Navigation bar*/
 nav {
     display: flex;
     align-items: center;
-	justify-content: space-between;
-	height: 4em;
+    justify-content: space-between;
+    height: 4em;
 }
 .menu {
     width:60%;
@@ -85,87 +84,31 @@ nav a {
 	color: lightgray;
 }
 
-/*Header*/
+/*header*/
+
 header {
-	display: flex;
-	justify-content: space-around;
-	padding-bottom: 3em;
-	border-bottom: 2px solid black;
-}
-div.innovation {
-	text-align: center;
-	margin: 0 auto;
-}
-header img {
-	width: 300px;
-	margin: 0 auto;
-}
-h1 {
-	text-align:center;
-	font-size: 80px;
-}
-button {
-    background-color: white;
-    border: 2px solid black;
-    color: black;
-    padding: 5px;
-    text-align: center;
-	font-size: 14px;
-	width: 180px;
-	height: 40px;
-}
-button:hover {
-	border: 5px solid black;
-}
-/*section*/
-
-.top {
-	display: flex;
-	align-items: flex-start;
-	padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
 }
 
-#Features {
-	width:  49%;
-	text-align: left;
-}
-#About {
-	width: 49%;
-	text-align: left;
-	
-}
-div.spacingTop {
-	width: 2%;
-}
-.bottom {
-	display: flex;
-	align-items: flex-start;
-	padding: 2%;
-	border-bottom: 2px solid black;
-}
-div.spacingBottom {
-	width: 1%;
-}
-#Services {
-	width: 32%;
-	text-align: left;
-}
 
-#Product {
-	width: 32%;
-	text-align: left;
+/*Section 1*/
+
+.section1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
 }
-#Vision {
-	width: 32%;
-	text-align: left;
-}
-section img {
-	display: flex;
-	width: 100%;
-}
-/*address*/
-address {
-	margin: 2%;	
+.section1 div {
+    width: 47%;
+    background-color: lightgray;
+    border: 1px solid black;
+    margin: 1.5em 0 1.5em 0;
+    padding: 1em;
 }
 #phone {
 	text-decoration: none;
@@ -175,7 +118,32 @@ address {
 	text-decoration: none;
 	color: black;
 }
-/*footer*/
+
+/*Section 2*/
+
+.section2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-top: 2px solid black;
+    padding-top: 2em;
+}
+ul {
+    list-style-type: disc;
+    padding-left: 1em;
+}
+.section2 div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 45%;
+}
+.section2 img {
+    width: 45%;
+}
+
+/*Footer*/
+
 footer {
     display: flex;
     justify-content: center;
